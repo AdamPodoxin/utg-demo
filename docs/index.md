@@ -6,7 +6,7 @@ hide:
 
 # Welcome to UTG Demo
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Made with [MkDocs](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
 ## Classes
 
