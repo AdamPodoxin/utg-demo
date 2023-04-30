@@ -1,0 +1,29 @@
+site_name: UTG Demo
+theme: 
+  name: material
+  logo: assets/utg_white.png
+  favicon: assets/utg_blue.png
+  palette:
+    # Dark mode
+      scheme: slate
+      primary: blue
+      accent: indigo
+  features:
+    - content.code.copy
+    - content.code.select
+    - navigation.tracking
+    - content.code.annotate
+
+nav:
+  - Home: index.md
+  - PY302: py302.md
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
